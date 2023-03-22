@@ -1,0 +1,26 @@
+header{
+    background-color: yellow;
+    margin: -8px;
+}
+
+header > h1{
+    text-align: center;
+}
+
+div{
+    background-color: pink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: plum;
+    margin: -8px;
+    height: 70px;
+    padding-top: 20px;
+}
+
+#select{
+    border: 2px solid black;
+    border-radius: 5px;
+}

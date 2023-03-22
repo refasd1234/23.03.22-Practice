@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+hr{
+    float: left;
+    animation-name: hr;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes hr{
+    0%{
+        width: 0px;
+    }
+
+}
+
+fieldset{
+    width: 500px; clear: both; 
+    animation-name: fs;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border: 1px solid;
+}
+
+@keyframes fs{
+    0%{
+        color: hotpink;
+    }
+
+    15%{
+        color: red;
+    }
+
+    25%{
+        color: rgb(253, 253, 253);
+    }
+
+    50%{
+        color: rgb(199, 255, 69);
+    }
+
+    75%{
+        color: cornflowerblue;
+    }
+
+    100%{
+        color: hotpink;
+    }
+}
+
+input{
+    cursor: pointer;
+}
+
+.input1:focus{
+    background-color: beige;
+    animation-name: fcs;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fcs{
+    50%{
+        background-color: bisque;
+    }
+
+    100%{
+        background-color: beige;
+    }
+}
+
+.input2:hover{
+    background-color: rgb(197, 197, 197);
+}

@@ -1,0 +1,33 @@
+header{
+    background-color: yellow;
+    width: 100%;
+    height: 20%;
+}
+
+header > h1{
+    text-align: center;
+}
+aside{
+    background-color: orange;
+    float: left;
+    width: 10%;
+    height: 70%;
+}
+
+section{
+    background-color: rgb(105, 180, 190);
+    width: 90%;
+    height: 70%;
+    float: left;
+}
+
+table img{
+    height: 250px;
+}
+
+footer{
+    clear: both;
+    background-color: plum;
+    width: 100%;
+    height: 10%;
+}

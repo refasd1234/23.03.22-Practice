@@ -1,0 +1,20 @@
+.i1{
+    width: 100px;
+}
+
+.i1:hover{
+    background-color: aliceblue;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+}
+
+.btn{
+    background-color: black;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
